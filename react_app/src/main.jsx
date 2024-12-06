@@ -1,10 +1,20 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Leftpanel from '../Components/Leftpanel.jsx'
-import './App.css'
+import './Style.css'
+import Navbar from '../Components/Searchbar.jsx'
+import Videosection from '../Components/Videbar.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <div className="main-container">
+      <Leftpanel />
+      <div className="content-container">
+        <Navbar />
+        <Videosection />
+      </div>
+    </div>
+  </StrictMode>
+);
 
-    <Leftpanel/>
-  </StrictMode>,
-)
+
+

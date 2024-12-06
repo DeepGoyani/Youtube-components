@@ -14,8 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    margin-bottom: 20px;
+    width: 100%;  
   }
   .sub{
     gap: 50px;
@@ -34,6 +33,7 @@
     flex-direction: column;
     gap: 15px;
     width: 100%;
+    margin-top: 10%;
   }
   
   .home {
@@ -67,6 +67,9 @@
   .explore:hover,
   .explores:hover {
     background-color: #383838;
+    transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+
   }
   
   .logoh {
@@ -124,4 +127,3 @@
     width: 2%;
     margin-left: 2%;
   }
-  
